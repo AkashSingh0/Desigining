@@ -1,0 +1,83 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: rgb(170, 170, 170);
+}
+html, body{
+width: 100%;
+height: 100%;
+}
+.container{
+background-color: black;
+height: 100vh;
+width: 100%;
+}
+.header{
+width: 100%;
+height: 10vh;
+display: flex;
+padding: 0px 50px 0px 50px;
+
+justify-content: space-between;
+align-items: center;
+}
+.header-heading{
+
+width: 180px;
+height: 30px;
+overflow: hidden;
+text-align: center;
+}
+.header-heading h3{
+position: relative;
+top: 30px;
+font-size: 23px;
+opacity: 0;
+}
+.main{
+height: 50vh;
+width: 100%;
+margin-top: 110px;
+
+display: flex;
+justify-content: space-between;
+}
+.main-heading{
+display: flex;
+flex-direction: column;
+height: 100%;
+
+width: 70%;
+font-size: 90px;
+letter-spacing: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 800;
+padding-left: 60px;
+padding-right: 20px;
+}
+.main-heading-one{
+width: 100%;
+height: 50%;
+padding-top: 1vh;
+overflow: hidden;
+
+}
+.main-heading-two{
+display: flex;
+justify-content: flex-end;
+width: 100%;
+height: 50%;
+overflow: hidden;
+padding: 0.5vh;
+}
+.main-heading-one h1, .main-heading-two h1{
+position: relative;
+top:200px;
+opacity: 1;
+}
+
+/* .last-heading-one{
+     
+} */
